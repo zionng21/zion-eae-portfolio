@@ -1,0 +1,103 @@
+body {
+    background: url("https://cdn.wallpapersafari.com/61/91/mr4fKx.jpg");
+    background-size: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: black;
+    font-size: 35px;
+    margin: 0 auto ;
+    
+}
+#something {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Header {
+    margin: 0 auto;
+    margin-top: auto;
+}
+#portfolio {
+    margin: 0 auto;
+    margin-bottom: auto;
+    position: relative;
+    text-align: center;
+    border-radius: 10%;
+    border: black 2px solid;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+}
+html {
+    scroll-behavior: smooth;
+}
+h2 {
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    top: 20px
+}
+nav {
+    background-color: skyblue;
+    position: relative;
+    top: 0px;
+    display: flex;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li {
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+#strengths {
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 5px;   
+}
+main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#weakness {
+    display: block;
+    margin: 0; 
+    margin-right: auto;
+    margin-left: 5px;
+    width: 6vw;   
+}
+#strengths li {
+    padding: 0;
+}
+#weakness li {
+    padding: 0;
+    width: 30vw;
+}
+h3 {
+    font-weight: 1;
+}
+h4 {
+    font-size: 25px;
+}
+#bio {
+    text-align: center;
+    font-weight: 1;
+}
+#Biography {
+    text-align: center;
+    top: 20px;
+    position: relative;
+}
