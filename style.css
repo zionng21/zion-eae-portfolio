@@ -163,3 +163,57 @@ a {
 a:hover {
     text-decoration: underline;
 }
+#ccare {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: max-content;
+    top: 30px;
+}
+#ccare2 {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: max-content;
+    top: 20px;
+}
+#ccaw {
+    position: relative;
+    margin: 0 auto;
+    width: max-content;
+    top: 30px;
+}
+#leadershipex {
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+}
+#bars {
+    margin-top: 50px;
+    position: flex;
+    flex-direction: column;
+    margin-left: 40vw;
+    width: max-content;
+}
+::-webkit-progress-bar{
+    background-color: black;
+    
+}
+.flex {
+    position: flex;
+    margin-right: 45vw;
+    margin-left: auto;
+}
+.icons {
+    width: 80px;
+}
+.left {
+    margin-right: 10px;
+    width: 100px;  
+}
+.right {
+    margin-left: 10px;
+}
+#icons {
+    margin-left: 0;
+}

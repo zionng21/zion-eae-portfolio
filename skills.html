@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="portfolio.html">Home</a></li>
+        </ul>
+    </nav>
+    <main id="bars">
+        <div class="flex">
+        <label for="CSSMeter" class="CSS Lang">CSS:</label>
+        <progress max=100 min=0 value=25 id="CSSMeter" class="Meter CSS">
+            <div pseudo="-webkit-progress-inner-element">
+                <div pseudo="-webkit-progress-value" style="width:80%"></div>
+            </div>
+        </progress>
+        <label for="CSSMeter" class="Percentage">25%</label>
+    </div>
+    <div class="flex">
+        <label for="C++Meter" class="C++ Lang">C++:</label>
+        <progress max=100 min=0 value=50 id="C++Meter" class="Meter C++">
+            <div pseudo="-webkit-progress-inner-element">
+                <div pseudo="-webkit-progress-value" style="width:80%"></div>
+            </div>
+        </progress>
+        <label for="C++Meter" class="Percentage">50%</label>
+    </div>
+    <div class="flex">
+        <label for="pythonMeter" class="python Lang">Python:</label>
+        <progress max=100 min=0 value=30 id="CSSMeter" class="Meter python">
+            <div pseudo="-webkit-progress-inner-element">
+                <div pseudo="-webkit-progress-value" style="width:80%"></div>
+            </div>
+        </progress>
+        <label for="pythonMeter" class="Percentage">30%</label>
+    </div>
+    <div class="flex">
+        <label for="htmlMeter" class="html Lang">HTML5:</label>
+        <progress max=100 min=0 value=60 id="CSSMeter" class="Meter html">
+            <div pseudo="-webkit-progress-inner-element">
+                <div pseudo="-webkit-progress-value" style="width:80%"></div>
+            </div>
+        </progress>
+        <label for="htmlMeter" class="Percentage">60%</label>
+    </div>
+    <div class="flex" id="icons">
+        <img class="icons left"  src="/icons and images/iconfinder_css3_294692.png" alt="">
+        <img class="icons right" src="/icons and images/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" alt="">
+        </div>
+        <div class="flex" id="icons">
+            <img class="icons left"  src="/icons and images/iconfinder_267_Python_4518857.png" alt="">
+            <img class="icons right" src="/icons and images/iconfinder_html5_306195.png" alt="">
+            </div>
+    </main>
 </body>
 </html>
