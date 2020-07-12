@@ -55,7 +55,7 @@ nav {
     position: fixed;
     top: 0px;
     display: flex;
-    width: 100%;
+    width: 100vw;
     transition: linear 0.3s;
     height: 40px;
     z-index: 1;
@@ -190,10 +190,13 @@ a:hover {
 }
 #bars {
     margin-top: 50px;
-    position: flex;
     flex-direction: column;
     margin-left: 40vw;
     width: max-content;
+}
+#skillsb {
+    overflow: hidden;
+    width: 100vw;
 }
 ::-webkit-progress-bar{
     background-color: black;
@@ -201,7 +204,7 @@ a:hover {
 }
 .flex {
     position: flex;
-    margin-right: 45vw;
+    margin-right: 25vw;
     margin-left: auto;
 }
 .icons {
@@ -216,4 +219,32 @@ a:hover {
 }
 #icons {
     margin-left: 0;
+}
+@media (orientation: portrait) {
+    #bars {
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+    .flex {
+        margin-right: 20px;
+        margin-left: auto;
+    }
+    #Biography {
+        font-size: 20px ;
+    }
+    #bio {
+        font-size: 20px;
+    }
+    #weakness {
+        width: min-content; 
+    }
+    #strengths {
+        margin-bottom: auto;
+    }
+}
+@media (orientation: landscape) and (max-width: 1000px) {
+    #bars {
+        position: relative;
+        right: 60px;
+    }
 }
