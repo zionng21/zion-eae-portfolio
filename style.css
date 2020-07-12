@@ -248,6 +248,15 @@ progress[value] {
     #strengths {
         margin-bottom: auto;
     }
+    #cca {
+        font-size: 10px;
+    }
+    #clcw {
+        font-size: 10px;
+    }
+    #ccaw {
+        font-size: 10px;
+    }
 }
 @media (orientation: landscape) and (max-width: 1000px) {
     #bars {
