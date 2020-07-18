@@ -1,5 +1,5 @@
 body {
-    background: url("https://cdn.wallpapersafari.com/61/91/mr4fKx.jpg");
+    background: linear-gradient(white, skyblue);
     background-size: 100%;
     margin: 0;
     background-attachment: fixed;
@@ -200,6 +200,7 @@ a:hover {
 }
 progress[value] {
     -webkit-appearance: none;
+    margin-top: 5px;
 }
 ::-webkit-progress-bar{
     background-color: black;
