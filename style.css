@@ -10,6 +10,7 @@ body {
     position: relative;
     top: 0;
     left: 0;
+    font-family: 'Poppins', sans-serif;
 }
 h1 {
     color: black;
@@ -271,11 +272,11 @@ progress[value] {
         margin-top: 10px;
     }
     nav {
-        font-size: 12px;
+        font-size: 10px;
         margin: auto 0;
     }
     #home {
-        font-size: medium;
+        font-size: small;
         font-weight: 600;
         text-decoration: underline;
         padding-left: 0;   
