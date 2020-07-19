@@ -238,10 +238,10 @@ progress[value] {
         margin-left: auto;
     }
     #Biography {
-        font-size: 20px ;
+        font-size: 15px ;
     }
     #bio {
-        font-size: 20px;
+        font-size: 12px;
     }
     #weakness {
         width: min-content; 
@@ -252,6 +252,18 @@ progress[value] {
     #cca, #clcw, #ccaw {
         font-size: 10px;
         margin-bottom: 0;
+    }
+    #skill {
+        font-size: 12px;   
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    #weakness, #strengths {
+        margin-top: 10px;
     }
 }
 @media (orientation: landscape) and (max-width: 1000px) {
