@@ -78,10 +78,12 @@ li {
     list-style: none;
     margin: auto 0;
 }
+li#home {
+    padding: 5px;
+}
 #strengths {
     display: block;
     margin: 0;
-    margin-left: auto;
     margin-right: 10px;
 }
 main {
@@ -92,16 +94,22 @@ main {
 #weakness {
     display: block;
     margin: 0; 
-    margin-right: auto;
     margin-left: 10px;
+    width: 125px;
+}
+#weakness > li{
+    width: min-content;
+}
+#sw {
+    margin: 0 auto;
+    display: flex;
 }
 #strengths li {
     padding: 0;
 }
 #weakness li {
     padding: 0;
-    width: 30vw;
-}
+    }
 h3 {
     font-weight: 1;
 }
@@ -133,6 +141,11 @@ img {
     top: 10px;
     margin: 0 auto;
     width: max-content;
+}
+.sizeup {
+    transform: scale(1.5);
+    z-index: 9;
+    transition: 0.4s ease;
 }
 #potrait {
     display: flex;
@@ -232,13 +245,6 @@ progress[value] {
 #icons {
     margin-left: 0;
 }
-#random {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 @media (orientation: portrait) {
     #bars {
         margin: 0 auto;
@@ -280,11 +286,12 @@ progress[value] {
         font-size: 10px;
         margin: auto 0;
     }
-    #home {
+    li#home {
         font-size: small;
         font-weight: 600;
         text-decoration: underline;
-        padding-left: 0;   
+        padding-left: 0;
+        top: 4px;   
     }
     .moveright {
         padding: 10px;
@@ -293,6 +300,7 @@ progress[value] {
 @media (orientation: landscape) and (max-width: 1000px) {
     #bars {
         position: relative;
-        right: 60px;
+        right: 70px;
     }
 }
+

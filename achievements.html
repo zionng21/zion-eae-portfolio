@@ -25,10 +25,25 @@
             <div id="ptags"><p id="cca"><u>Outstanding CCA award</u></p></div>
             <div id="photo"><img id="outstanding" src="/icons and images/WhatsApp Image 2020-07-11 at 15.42.23 (3).jpeg" alt=""></div>
             <div id="ccaw"><p><u>CCA records</u></p></div>
-            <div id="ccare2"><img id="outstanding" src="/icons and images/WhatsApp Image 2020-07-11 at 15.45.24.jpeg" alt=""></div>
-            <div id="ccare"><img id="camp" src="/icons and images/WhatsApp Image 2020-07-11 at 15.45.24 (1).jpeg" alt="">
-                <img id="clc" src="/icons and images/WhatsApp Image 2020-07-11 at 15.45.24 (2).jpeg" alt=""></div>
+            <div id="ccare2"><img onclick="sizeup()" id="outstanding" src="/icons and images/WhatsApp Image 2020-07-11 at 15.45.24.jpeg" alt=""></div>
+            <div id="ccare"><img id="camp" onclick="sizeup()" src="/icons and images/WhatsApp Image 2020-07-11 at 15.45.24 (1).jpeg" alt="">
+                <img id="clc" onclick="sizeup()" src="/icons and images/WhatsApp Image 2020-07-11 at 15.45.24 (2).jpeg" alt=""></div>
 
-    
+    <script>
+        function sizeup() {
+            if(event.target.classList[2] === "sizeup"){
+                event.target.className = "CCACert Certs"
+            }
+            else{
+                if(document.getElementsByClassName("sizeup").length > 0){
+                    document.getElementsByClassName("sizeup")[0].className = "CCACert Certs"
+                    event.target.className += " sizeup"
+                }
+                else{
+                    event.target.className += " sizeup"
+                }
+            }
+        }
+    </script>
 </body>
 </html>
