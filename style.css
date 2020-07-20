@@ -294,7 +294,7 @@ progress[value] {
         top: 4px;   
     }
     .moveright {
-        padding: 10px;
+        padding: 4px;
     }
 }
 @media (orientation: landscape) and (max-width: 1000px) {
